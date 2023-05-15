@@ -1,0 +1,155 @@
+.product-all-container {
+    .product-all_filter {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        hr:first-child {
+            min-width: 10%;
+        }
+        hr:last-child {
+            min-width: 10%;
+        }
+        hr:nth-child(3) {
+            flex: 1;
+        }
+        h4 {
+            margin: 0;
+        }
+    }
+    padding: 30px 20%;
+    transition: all 0.3;
+    .products-all_flex {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 10px;
+        padding-top: 20px;
+        .product-all_item {
+            width: 30%;
+            text-align: center;
+            .product-all_image {
+                width: 100%;
+                position: relative;
+                a {
+                    color: #000000;
+                    img:last-child {
+                        position: absolute;
+                        top: 0;
+                        bottom: 0;
+                        left: 0;
+                        right: 0;
+                        opacity: 0;
+                        transition: all 0.3s;
+                    }
+                }
+            }
+            .product-all_image:hover {
+                a {
+                    img:last-child {
+                        opacity: 1;
+                    }
+                }
+            }
+            .product-all_des {
+                h6 {
+                    a {
+                        color: #000000;
+                    }
+                }
+                .product-all_discount {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .discount {
+                        color: #646464;
+                        -webkit-text-decoration-line: line-through;
+                        /* Safari */
+                        text-decoration-line: line-through;
+                    }
+                    p {
+                        margin: 5px 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .product-all-container {
+        .product-all_filter {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            hr:first-child {
+                min-width: 5%;
+            }
+            hr:last-child {
+                min-width: 5%;
+            }
+            hr:nth-child(3) {
+                flex: 1;
+            }
+            h4 {
+                margin: 0;
+            }
+        }
+        padding: 30px 5%;
+        transition: all 0.3;
+        .products-all_flex {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 10px;
+            padding-top: 20px;
+            .product-all_item {
+                width: 45%;
+                text-align: center;
+                .product-all_image {
+                    width: 100%;
+                    position: relative;
+                    a {
+                        color: #000000;
+                        img:last-child {
+                            position: absolute;
+                            top: 0;
+                            bottom: 0;
+                            left: 0;
+                            right: 0;
+                            opacity: 0;
+                            transition: all 0.3s;
+                        }
+                    }
+                }
+                .product-all_image:hover {
+                    a {
+                        img:last-child {
+                            opacity: 1;
+                        }
+                    }
+                }
+                .product-all_des {
+                    h6 {
+                        a {
+                            color: #000000;
+                        }
+                    }
+                    .product-all_discount {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        .discount {
+                            color: #646464;
+                            -webkit-text-decoration-line: line-through;
+                            /* Safari */
+                            text-decoration-line: line-through;
+                        }
+                        p {
+                            margin: 5px 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

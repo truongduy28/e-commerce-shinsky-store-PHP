@@ -1,0 +1,68 @@
+.account-container {
+  width: 60%;
+  margin: 50px auto;
+}
+
+.account-container .account-details {
+  text-align: center;
+}
+
+.account-container .account-details img {
+  width: 20%;
+}
+
+.account-container .account-pass .account-pass_title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.account-container .account-pass .account-pass_title hr:first-child {
+  min-width: 5%;
+}
+
+.account-container .account-pass .account-pass_title hr:last-child {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.account-container .account-pass .account-pass_title h4 {
+  margin: 0;
+}
+
+@media screen and (max-width: 1000px) {
+  .account-container {
+    width: 90%;
+    margin: 50px auto;
+  }
+  .account-container .account-details {
+    text-align: center;
+  }
+  .account-container .account-details img {
+    width: 20%;
+  }
+  .account-container .account-pass .account-pass_title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .account-container .account-pass .account-pass_title hr:first-child {
+    min-width: 5%;
+  }
+  .account-container .account-pass .account-pass_title hr:last-child {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+  .account-container .account-pass .account-pass_title h4 {
+    margin: 0;
+  }
+}
+/*# sourceMappingURL=account.css.map */

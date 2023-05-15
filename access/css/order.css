@@ -1,0 +1,34 @@
+.order-container {
+  width: 50%;
+  margin: 20px auto;
+  border: 1px solid #a7a7a7;
+  -webkit-box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+          box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.order-container p span {
+  color: #00a2ca;
+}
+
+@media screen and (max-width: 1000px) {
+  .order-container {
+    width: 95%;
+    margin: 20px auto;
+    border: 1px solid #a7a7a7;
+    -webkit-box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+            box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  }
+  .order-container p span {
+    color: #00a2ca;
+  }
+  .table td,
+  .table th {
+    padding: 2px;
+    font-size: 0.8em;
+  }
+  .btn {
+    padding: 2px;
+    font-size: 0.7em;
+  }
+}
+/*# sourceMappingURL=order.css.map */

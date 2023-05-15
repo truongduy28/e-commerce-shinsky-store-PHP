@@ -1,0 +1,38 @@
+.header-container {
+    ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .header-container {
+        position: relative;
+        ul {
+            display: block;
+            text-align: left;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            right: 0;
+            background: #fff;
+            z-index: 9;
+            transition: all 0.3s;
+            opacity: 0;
+            visibility: hidden;
+            li {
+                padding: 5px 0px;
+            }
+        }
+        div {
+            p {}
+        }
+        .show_nav {
+            visibility: visible;
+            opacity: 1;
+            transform: translateY(-10px);
+        }
+    }
+}

@@ -1,0 +1,71 @@
+.login-container {
+  width: 25%;
+  margin: 0 auto;
+}
+
+.login-container form {
+  border: 1px solid #bebebe;
+  padding: 30px 15px;
+  -webkit-box-shadow: 9px 21px 65px -28px rgba(0, 0, 0, 0.67);
+  box-shadow: 9px 21px 65px -28px rgba(0, 0, 0, 0.67);
+}
+
+.login-container form .form-group {
+  margin-top: 10px;
+}
+
+.login-container form .form-group input {
+  border-color: #000;
+  outline: none;
+  padding: 2px 10px;
+  border: 1px solid #4d4d4d;
+}
+
+.login-container form button {
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #000000;
+  font-weight: 200;
+}
+
+.login-container form button:hover {
+  background-color: #fff;
+  border: 1px solid #4d4d4d;
+  font-weight: 400;
+  color: #000;
+}
+
+@media screen and (max-width: 1000px) {
+  .login-container {
+    width: 90%;
+    margin: 50px auto;
+  }
+  .login-container form {
+    border: 1px solid #bebebe;
+    padding: 30px 15px;
+    -webkit-box-shadow: 9px 21px 65px -28px rgba(0, 0, 0, 0.67);
+    box-shadow: 9px 21px 65px -28px rgba(0, 0, 0, 0.67);
+  }
+  .login-container form .form-group {
+    margin-top: 10px;
+  }
+  .login-container form .form-group input {
+    border-color: #000;
+    outline: none;
+    padding: 2px 10px;
+    border: 1px solid #4d4d4d;
+  }
+  .login-container form button {
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #000000;
+    font-weight: 200;
+  }
+  .login-container form button:hover {
+    background-color: #fff;
+    border: 1px solid #4d4d4d;
+    font-weight: 400;
+    color: #000;
+  }
+}
+/*# sourceMappingURL=login.css.map */

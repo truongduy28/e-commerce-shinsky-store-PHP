@@ -1,0 +1,149 @@
+.product-highlight-container {
+    padding: 0px 20%;
+    margin-top: 50px;
+    .product-highlight_title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        hr {
+            flex: 1;
+            height: 2px;
+        }
+    }
+    .products-highlight_flex {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 10px;
+        padding-top: 20px;
+        .product-highlight_item {
+            width: 30%;
+            text-align: center;
+            .product-highlight_image {
+                position: relative;
+                a {
+                    color: #000000;
+                    img:last-child {
+                        position: absolute;
+                        top: 0;
+                        bottom: 0;
+                        left: 0;
+                        right: 0;
+                        opacity: 0;
+                        transition: all 0.3s;
+                    }
+                }
+            }
+            .product-highlight_image:hover {
+                a {
+                    img:last-child {
+                        opacity: 1;
+                    }
+                }
+            }
+            .product-highlight_des {
+                h6 {
+                    a {
+                        color: #000000;
+                    }
+                }
+                .product-highlight_discount {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .discount {
+                        color: #646464;
+                        -webkit-text-decoration-line: line-through;
+                        /* Safari */
+                        text-decoration-line: line-through;
+                    }
+                    p {
+                        margin: 5px 10px;
+                    }
+                }
+            }
+        }
+    }
+    .product-highlight_all {
+        text-align: center;
+        a {
+            color: #4b4b4b;
+        }
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .product-highlight-container {
+        padding: 0px 5%;
+        margin-top: 50px;
+        .product-highlight_title {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            hr {
+                flex: 1;
+                height: 2px;
+            }
+        }
+        .products-highlight_flex {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 10px;
+            padding-top: 20px;
+            .product-highlight_item {
+                width: 45%;
+                text-align: center;
+                .product-highlight_image {
+                    position: relative;
+                    a {
+                        color: #000000;
+                        img:last-child {
+                            position: absolute;
+                            top: 0;
+                            bottom: 0;
+                            left: 0;
+                            right: 0;
+                            opacity: 0;
+                            transition: all 0.3s;
+                        }
+                    }
+                }
+                .product-highlight_image:hover {
+                    a {
+                        img:last-child {
+                            opacity: 1;
+                        }
+                    }
+                }
+                .product-highlight_des {
+                    h6 {
+                        a {
+                            color: #000000;
+                        }
+                    }
+                    .product-highlight_discount {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        .discount {
+                            color: #646464;
+                            -webkit-text-decoration-line: line-through;
+                            /* Safari */
+                            text-decoration-line: line-through;
+                        }
+                        p {
+                            margin: 5px 10px;
+                        }
+                    }
+                }
+            }
+        }
+        .product-highlight_all {
+            text-align: center;
+            a {
+                color: #4b4b4b;
+            }
+        }
+    }
+}

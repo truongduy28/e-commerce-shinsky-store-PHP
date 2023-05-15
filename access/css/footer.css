@@ -1,0 +1,161 @@
+.footer-container {
+    margin-top: 100px;
+    background: #000;
+    padding: 50px 10% 0px;
+    color: #fff;
+}
+
+.footer-container .footer-top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.footer-container .footer-top .footer-top_item {
+    max-width: 40%;
+}
+
+.footer-container .footer-top .footer-top_left {
+    width: 15%;
+}
+
+.footer-container .footer-top .footer-top_left .footer-top_left__socialmedia {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.footer-container .footer-top .footer-top_left .footer-top_left__socialmedia .footer-top_left__socialmedia-item {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    margin-top: 5px;
+    -webkit-transform: scale(0.85);
+    transform: scale(0.85);
+}
+
+.footer-container .footer-top .footer-top_right {
+    text-align: right;
+    line-height: 1.5em;
+}
+
+.footer-container .footer-top .footer-top_right p {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-container .footer-top .footer-top_right p:first-child {
+    margin-bottom: 10px;
+}
+
+.footer-container .footer-top .footer-top_right a {
+    color: #fff;
+}
+
+.footer-container .footer-bottom {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-top: 1px solid #313131;
+    padding: 5px;
+    font-size: 0.8em;
+}
+
+@media screen and (max-width: 1000px) {
+    .footer-container {
+        margin-top: 70px;
+        background: #000;
+        padding: 50px 2% 0px;
+        color: #fff;
+    }
+    .footer-container .footer-top {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    .footer-container .footer-top .footer-top_item {
+        max-width: 100%;
+    }
+    .footer-container .footer-top .footer-top_left {
+        width: 25%;
+    }
+    .footer-container .footer-top .footer-top_left .footer-top_left__socialmedia {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        gap: 5px;
+    }
+    .footer-container .footer-top .footer-top_left .footer-top_left__socialmedia .footer-top_left__socialmedia-item {
+        -webkit-box-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+        margin-top: 5px;
+        -webkit-transform: scale(0.85);
+        transform: scale(0.85);
+    }
+    .footer-container .footer-top .footer-top_right {
+        font-size: 0.8em;
+        margin-top: 30px;
+        text-align: center;
+        line-height: 1.5em;
+    }
+    .footer-container .footer-top .footer-top_right p {
+        margin: 0;
+        padding: 0;
+    }
+    .footer-container .footer-top .footer-top_right p:first-child {
+        margin-bottom: 10px;
+    }
+    .footer-container .footer-top .footer-top_right a {
+        color: #fff;
+    }
+    .footer-container .footer-bottom {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        border-top: 1px solid #313131;
+        padding: 5px;
+        font-size: 0.5em;
+    }
+}
+
+
+/*# sourceMappingURL=footer.css.map */

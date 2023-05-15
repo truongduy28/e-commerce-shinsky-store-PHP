@@ -1,0 +1,105 @@
+.footer-container {
+    margin-top: 100px;
+    background: #44312c;
+    padding: 50px 10% 0px;
+    color: #fff;
+    .footer-top {
+        display: flex;
+        justify-content: space-between;
+        .footer-top_item {
+            max-width: 40%;
+        }
+        .footer-top_left {
+            width: 15%;
+            .footer-top_left__socialmedia {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 5px;
+                .footer-top_left__socialmedia-item {
+                    flex: 1;
+                    margin-top: 5px;
+                    transform: scale(0.85);
+                }
+            }
+        }
+        .footer-top_right {
+            text-align: right;
+            line-height: 1.5em;
+            p {
+                margin: 0;
+                padding: 0;
+            }
+            p:first-child {
+                margin-bottom: 10px;
+            }
+            a {
+                color: #fff;
+            }
+        }
+    }
+    .footer-bottom {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-top: 1px solid rgb(49, 49, 49);
+        padding: 5px;
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .footer-container {
+        margin-top: 70px;
+        background: #000;
+        padding: 50px 2% 0px;
+        color: #fff;
+        .footer-top {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            align-items: center;
+            .footer-top_item {
+                max-width: 100%;
+            }
+            .footer-top_left {
+                width: 25%;
+                .footer-top_left__socialmedia {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 5px;
+                    .footer-top_left__socialmedia-item {
+                        flex: 1;
+                        margin-top: 5px;
+                        transform: scale(0.85);
+                    }
+                }
+            }
+            .footer-top_right {
+                font-size: 0.8em;
+                margin-top: 30px;
+                text-align: center;
+                line-height: 1.5em;
+                p {
+                    margin: 0;
+                    padding: 0;
+                }
+                p:first-child {
+                    margin-bottom: 10px;
+                }
+                a {
+                    color: #fff;
+                }
+            }
+        }
+        .footer-bottom {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-top: 1px solid rgb(49, 49, 49);
+            padding: 5px;
+            font-size: 0.5em;
+        }
+    }
+}

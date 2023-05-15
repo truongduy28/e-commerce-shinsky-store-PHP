@@ -1,0 +1,16 @@
+.products-container {
+    .products-left {
+        table {
+            overflow-x: scroll;
+            tbody {
+                tr {
+                    td {
+                        img {
+                            width: 100px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

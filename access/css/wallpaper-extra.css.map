@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,0BAA0B,CAAC;EACvB,UAAU,EAAE,IAAI;EAChB,gBAAgB,EAAE,kDAAkD;EACpE,OAAO,EAAE,SAAS;EAClB,qBAAqB,EAAE,KAAK;EAC5B,eAAe,EAAE,KAAK;CACzB",
+    "sources": [
+        "wallpaper-extra.scss"
+    ],
+    "names": [],
+    "file": "wallpaper-extra.css"
+}

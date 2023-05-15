@@ -1,0 +1,53 @@
+.account-container {
+    width: 60%;
+    margin: 50px auto;
+    .account-details {
+        img {
+            width: 20%;
+        }
+        text-align: center;
+    }
+    .account-pass {
+        .account-pass_title {
+            display: flex;
+            align-items: center;
+            hr:first-child {
+                min-width: 5%;
+            }
+            hr:last-child {
+                flex: 1;
+            }
+            h4 {
+                margin: 0;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .account-container {
+        width: 90%;
+        margin: 50px auto;
+        .account-details {
+            img {
+                width: 20%;
+            }
+            text-align: center;
+        }
+        .account-pass {
+            .account-pass_title {
+                display: flex;
+                align-items: center;
+                hr:first-child {
+                    min-width: 5%;
+                }
+                hr:last-child {
+                    flex: 1;
+                }
+                h4 {
+                    margin: 0;
+                }
+            }
+        }
+    }
+}

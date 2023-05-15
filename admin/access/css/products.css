@@ -1,0 +1,8 @@
+.products-container .products-left table {
+  overflow-x: scroll;
+}
+
+.products-container .products-left table tbody tr td img {
+  width: 100px;
+}
+/*# sourceMappingURL=products.css.map */

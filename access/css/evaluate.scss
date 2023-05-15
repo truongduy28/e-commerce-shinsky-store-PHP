@@ -1,0 +1,40 @@
+.evaluate-container {
+    padding: 20px 20%;
+    .evaluate-product {
+        display: flex;
+        justify-content: center;
+        .evaluate-product_image {
+            border: 1px solid #d8d7d7;
+            width: 10%;
+        }
+        .evaluate-product_title {
+            border: 1px solid #d8d7d7;
+            flex: 1;
+            text-transform: uppercase;
+            font-size: 1.1em;
+            font-weight: bold;
+            padding: 10px;
+        }
+        .evaluate-product_properties {
+            border: 1px solid #d8d7d7;
+            width: 15%;
+            text-align: center;
+            text-transform: uppercase;
+            font-size: 1.1em;
+            font-weight: bold;
+        }
+    }
+    .evaluate-product_rate {
+        .evaluate-product_rate-title {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            hr:first-child {
+                min-width: 5%;
+            }
+            hr:last-child {
+                flex-grow: 1;
+            }
+        }
+    }
+}

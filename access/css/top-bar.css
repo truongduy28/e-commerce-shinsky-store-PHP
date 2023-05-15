@@ -1,0 +1,104 @@
+.top-bar-container {
+  background-color: #000000;
+  color: #ffff;
+  padding: 5px 15%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.top-bar-container .top-bar_lerf {
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.top-bar-container .top-bar_right ul {
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.top-bar-container .top-bar_right ul li {
+  margin-left: 5px;
+}
+
+.top-bar-container .top-bar_right ul li a {
+  color: #d6d6d6;
+}
+
+.top-bar-container .top-bar_right ul li img {
+  width: 30px;
+  border-radius: 5px;
+}
+
+.top-bar-container .top-bar_right ul li:first-child {
+  margin-right: 20px;
+}
+
+.top-bar-container .top-bar_right ul li:first-child a {
+  font-size: 0.9em;
+}
+
+@media screen and (max-width: 1000px) {
+  .top-bar-container {
+    background-color: #000000;
+    color: #ffff;
+    padding: 2px 3%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 0.7em;
+  }
+  .top-bar-container .top-bar_lerf {
+    font-weight: 300;
+    letter-spacing: 0.5px;
+  }
+  .top-bar-container .top-bar_right ul {
+    margin: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .top-bar-container .top-bar_right ul li {
+    margin-left: 5px;
+  }
+  .top-bar-container .top-bar_right ul li a {
+    color: #d6d6d6;
+  }
+  .top-bar-container .top-bar_right ul li img {
+    width: 30px;
+    border-radius: 5px;
+  }
+  .top-bar-container .top-bar_right ul li:first-child {
+    margin-right: 20px;
+  }
+  .top-bar-container .top-bar_right ul li:first-child a {
+    font-size: 0.9em;
+  }
+}
+/*# sourceMappingURL=top-bar.css.map */

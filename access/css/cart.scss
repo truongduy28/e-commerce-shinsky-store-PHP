@@ -1,0 +1,144 @@
+.cart-container {
+    form {
+        display: flex;
+        flex-direction: row;
+        gap: 030px;
+        .cart-banner {
+            position: relative;
+            height: 250px;
+            .cart-banner_text {
+                position: absolute;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                background-color: rgba(20, 20, 20, 0.616);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                h3 {
+                    color: #fff;
+                    font-size: 2em;
+                    letter-spacing: 3px;
+                }
+            }
+        }
+        .cart-table {
+            // padding: 20px 15%;
+            table {
+                border: 1px solid rgb(145, 145, 145);
+            }
+            min-width: 60%;
+        }
+        .cart-user {
+            // padding: 0px 20%;
+            margin: auto;
+            .cart-user_title {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                hr:first-child {
+                    min-width: 5%;
+                }
+                hr:last-child {
+                    flex: 1;
+                }
+            }
+            .cart-user_form {
+                label {
+                    span {
+                        color: red;
+                    }
+                }
+                .cart-user_form__description {
+                    .cart-user_form__description-item {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        hr {
+                            flex: 1;
+                        }
+                        span {
+                            font-style: italic;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .cart-container {
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 030px;
+            .cart-banner {
+                position: relative;
+                height: 250px;
+                .cart-banner_text {
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    bottom: 0;
+                    left: 0;
+                    background-color: rgba(20, 20, 20, 0.616);
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    h3 {
+                        color: #fff;
+                        font-size: 2em;
+                        letter-spacing: 3px;
+                    }
+                }
+            }
+            .cart-table {
+                // padding: 20px 15%;
+                table {
+                    border: 1px solid rgb(145, 145, 145);
+                }
+                .table td,
+                .table th {
+                    padding: 2px;
+                    font-size: 0.8em;
+                }
+            }
+            .cart-user {
+                padding: 0px 5%;
+                .cart-user_title {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    hr:first-child {
+                        min-width: 5%;
+                    }
+                    hr:last-child {
+                        flex: 1;
+                    }
+                }
+                .cart-user_form {
+                    label {
+                        span {
+                            color: red;
+                        }
+                    }
+                    .cart-user_form__description {
+                        .cart-user_form__description-item {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            hr {
+                                flex: 1;
+                            }
+                            span {
+                                font-style: italic;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
